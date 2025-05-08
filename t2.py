@@ -1,0 +1,5 @@
+a = float(input("Enter first number: "))
+b = float(input("Enter second number: "))
+op = input("Enter operator (+, -, *, /): ")
+result = eval(f"{a} {op} {b}")
+print("Result:", result)
